@@ -1,0 +1,155 @@
+[enu default]
+
+VKB_OPEN  = "Visual keyboard";
+VKB_TITLE = "Keyboard";
+VKB_STATUS = "%d keys in use  ·  %d with several actions  ·  %s layout";
+
+VKB_VIEW_GAME   = "Game";
+VKB_VIEW_DOUBLE = "Double tap";
+VKB_VIEW_MAP    = "Automap";
+VKB_VIEW_TIP_0 = "Bindings used while playing.";
+VKB_VIEW_TIP_1 = "Bindings that run when a key is pressed twice quickly.";
+VKB_VIEW_TIP_2 = "Bindings used while the automap is open.";
+
+VKB_LAYOUT_TIP_0 = "100% · Full-size 104-key layout with function row, navigation keys, arrows and number pad.";
+VKB_LAYOUT_TIP_1 = "75% · Compact 84-key layout with function row, navigation keys and arrows. No number pad. Switching layouts keeps all bindings.";
+VKB_LAYOUT_TIP_2 = "60% · Compact 61-key layout. No function row, arrows or number pad. Switching layouts keeps all bindings.";
+
+VKB_LEGEND_BOUND  = "Action";
+VKB_LEGEND_CUSTOM = "Custom command";
+VKB_LEGEND_MULTI  = "Several actions";
+VKB_LEGEND_FREE   = "Free";
+
+VKB_UNASSIGNED = "Unassigned";
+VKB_SINGLE     = "One action on this key";
+VKB_CUSTOM     = "Custom command (not in the controls menus)";
+VKB_MULTI      = "Several actions run together on this key";
+VKB_ESC_RESERVED = "Esc always opens the menu and can't be bound.";
+VKB_FN_HARDWARE  = "Fn is handled by the keyboard itself and can't be bound.";
+VKB_CLICK_EDIT = "Click or press Enter to view, assign or move actions";
+
+VKB_LIST = "Controls list";
+VKB_DONE = "Done";
+
+VKB_M1  = "Left";
+VKB_M2  = "Right";
+VKB_M3  = "Middle";
+VKB_M4  = "Mouse 4";
+VKB_M5  = "Mouse 5";
+VKB_WUP = "Wheel ↑";
+VKB_WDN = "Wheel ↓";
+
+VKB_EDIT_TITLE = "Keyboard / %s";
+VKB_ON_KEY = "On this key (%d)";
+VKB_ALL    = "All actions";
+VKB_SEARCH = "Search actions, categories or keys…";
+VKB_CUSTOM_CAT = "Custom command";
+
+VKB_ASSIGN  = "Assign here";
+VKB_CAPTURE = "Press a key…";
+VKB_UNBIND  = "Unbind";
+VKB_RESET   = "Default";
+VKB_CLEAR   = "Clear key";
+
+VKB_ASSIGN_TIP  = "Puts the selected action on %s, replacing what was there. The action keeps its other keys.";
+VKB_CAPTURE_TIP = "Adds the selected action to the next key or mouse button you press.";
+VKB_UNBIND_TIP  = "Removes the selected action from every key.";
+VKB_RESET_TIP   = "Gives only this action its default keys back.";
+VKB_CLEAR_TIP   = "Removes everything bound to %s.";
+
+VKB_NO_BINDINGS = "Nothing on this key. Open All actions to assign one.";
+VKB_NO_RESULTS  = "No matching actions";
+VKB_SELECT   = "Select an action in the list to edit it.";
+VKB_SELECTED = "%s  →  %s";
+VKB_NONE     = "no key";
+VKB_PAGE     = "%d / %d  ·  %d actions";
+
+VKB_MSG_ASSIGNED  = "%s is now on %s.";
+VKB_MSG_REPLACED  = "(Replaced: %s)";
+VKB_MSG_CAPTURED  = "%s is now also on %s.";
+VKB_MSG_UNBOUND   = "%s has no keys now.";
+VKB_MSG_RESET     = "%s is back to its default keys: %s.";
+VKB_MSG_CLEARED   = "%s is free now.";
+VKB_MSG_CANCELLED = "Cancelled. Nothing changed.";
+
+VKB_CAP_TITLE  = "Press your new key";
+VKB_CAP_FOR    = "for: %s";
+VKB_CAP_CANCEL = "Esc cancels · Your current keys stay as they are.";
+
+[pt]
+
+VKB_OPEN  = "Teclado visual";
+VKB_TITLE = "Teclado";
+VKB_STATUS = "%d teclas em uso  ·  %d com várias ações  ·  layout %s";
+
+VKB_VIEW_GAME   = "Jogo";
+VKB_VIEW_DOUBLE = "Toque duplo";
+VKB_VIEW_MAP    = "Automapa";
+VKB_VIEW_TIP_0 = "Comandos usados durante o jogo.";
+VKB_VIEW_TIP_1 = "Comandos que rodam quando a tecla é apertada duas vezes rápido.";
+VKB_VIEW_TIP_2 = "Comandos usados com o automapa aberto.";
+
+VKB_LAYOUT_TIP_0 = "100% · Layout completo de 104 teclas, com linha de funções, teclas de navegação, setas e teclado numérico.";
+VKB_LAYOUT_TIP_1 = "75% · Layout compacto de 84 teclas, com linha de funções, teclas de navegação e setas. Sem teclado numérico. Trocar o layout mantém todos os comandos.";
+VKB_LAYOUT_TIP_2 = "60% · Layout compacto de 61 teclas. Sem linha de funções, setas ou teclado numérico. Trocar o layout mantém todos os comandos.";
+
+VKB_LEGEND_BOUND  = "Ação";
+VKB_LEGEND_CUSTOM = "Comando personalizado";
+VKB_LEGEND_MULTI  = "Várias ações";
+VKB_LEGEND_FREE   = "Livre";
+
+VKB_UNASSIGNED = "Sem ação";
+VKB_SINGLE     = "Uma ação nesta tecla";
+VKB_CUSTOM     = "Comando personalizado (fora dos menus de controles)";
+VKB_MULTI      = "Várias ações rodam juntas nesta tecla";
+VKB_ESC_RESERVED = "Esc sempre abre o menu e não pode receber ações.";
+VKB_FN_HARDWARE  = "Fn é tratado pelo próprio teclado e não pode receber ações.";
+VKB_CLICK_EDIT = "Clique ou aperte Enter para ver, atribuir ou mover ações";
+
+VKB_LIST = "Lista de controles";
+VKB_DONE = "Concluído";
+
+VKB_M1  = "Esquerdo";
+VKB_M2  = "Direito";
+VKB_M3  = "Meio";
+VKB_M4  = "Mouse 4";
+VKB_M5  = "Mouse 5";
+VKB_WUP = "Roda ↑";
+VKB_WDN = "Roda ↓";
+
+VKB_EDIT_TITLE = "Teclado / %s";
+VKB_ON_KEY = "Nesta tecla (%d)";
+VKB_ALL    = "Todas as ações";
+VKB_SEARCH = "Buscar ações, categorias ou teclas…";
+VKB_CUSTOM_CAT = "Comando personalizado";
+
+VKB_ASSIGN  = "Atribuir aqui";
+VKB_CAPTURE = "Pressionar tecla…";
+VKB_UNBIND  = "Desvincular";
+VKB_RESET   = "Padrão";
+VKB_CLEAR   = "Limpar tecla";
+
+VKB_ASSIGN_TIP  = "Coloca a ação selecionada em %s, substituindo o que estava lá. A ação continua nas outras teclas.";
+VKB_CAPTURE_TIP = "Adiciona a ação selecionada na próxima tecla ou botão do mouse que você apertar.";
+VKB_UNBIND_TIP  = "Remove a ação selecionada de todas as teclas.";
+VKB_RESET_TIP   = "Devolve só a esta ação as teclas padrão dela.";
+VKB_CLEAR_TIP   = "Remove tudo o que está em %s.";
+
+VKB_NO_BINDINGS = "Nada nesta tecla. Abra Todas as ações para atribuir uma.";
+VKB_NO_RESULTS  = "Nenhuma ação encontrada";
+VKB_SELECT   = "Selecione uma ação na lista para editar.";
+VKB_SELECTED = "%s  →  %s";
+VKB_NONE     = "nenhuma tecla";
+VKB_PAGE     = "%d / %d  ·  %d ações";
+
+VKB_MSG_ASSIGNED  = "%s agora está em %s.";
+VKB_MSG_REPLACED  = "(Substituiu: %s)";
+VKB_MSG_CAPTURED  = "%s agora também está em %s.";
+VKB_MSG_UNBOUND   = "%s ficou sem teclas.";
+VKB_MSG_RESET     = "%s voltou às teclas padrão: %s.";
+VKB_MSG_CLEARED   = "%s está livre agora.";
+VKB_MSG_CANCELLED = "Cancelado. Nada mudou.";
+
+VKB_CAP_TITLE  = "Pressione a nova tecla";
+VKB_CAP_FOR    = "para: %s";
+VKB_CAP_CANCEL = "Esc cancela · Suas teclas atuais continuam como estão.";

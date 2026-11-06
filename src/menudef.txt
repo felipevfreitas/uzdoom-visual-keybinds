@@ -1,0 +1,14 @@
+// Visual Keybinds
+//
+// Adds "Visual keyboard" at the top of the controls menu. With Tabbed
+// Options loaded it shows at the top of the Controls tab, since that tab
+// shows the controls menu directly.
+//
+// The keyboard screen can also be opened from the console with:
+//   openmenu VKB_KeyboardMenu
+
+AddOptionMenu "CustomizeControls" before "ActionControlsMenu"
+{
+	Submenu "$VKB_OPEN", "VKB_KeyboardMenu"
+	StaticText ""
+}

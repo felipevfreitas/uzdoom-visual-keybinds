@@ -1,0 +1,7 @@
+version "4.15.1"
+
+#include "zscript/vkb/layouts.zs"
+#include "zscript/vkb/data.zs"
+#include "zscript/vkb/gfx.zs"
+#include "zscript/vkb/keyboard.zs"
+#include "zscript/vkb/editor.zs"
